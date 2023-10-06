@@ -30,8 +30,8 @@ Transform:
   m_GameObject: {fileID: 2527666436949078375}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.4417, y: 0.5, z: 0.15410805}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 4.5049, y: 1, z: 0.1541081}
+  m_LocalScale: {x: 1, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -105,8 +105,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.0125155, y: 0, z: 1}
+  m_Center: {x: 0.0062577724, y: 0.5, z: 0}
 --- !u!114 &8451113910429289457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,13 +119,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e14899279dce96441a7140af2b75c3fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyColorMat:
-  - {fileID: 2100000, guid: a786bed7f4bdadf40b5971868af48b5b, type: 2}
-  - {fileID: 2100000, guid: c77b66085b6cf334588971149cad9a01, type: 2}
-  - {fileID: 2100000, guid: 4d24d55d95d2ae946ae5d64c2f2af7df, type: 2}
+  EnemyColorMat:
   - {fileID: 2100000, guid: bbccf88c7d560ed47986f4e7c3411e9d, type: 2}
+  - {fileID: 2100000, guid: c77b66085b6cf334588971149cad9a01, type: 2}
+  - {fileID: 2100000, guid: a786bed7f4bdadf40b5971868af48b5b, type: 2}
+  - {fileID: 2100000, guid: 4d24d55d95d2ae946ae5d64c2f2af7df, type: 2}
   EnemySpeed: 0.01
-  Enemy_Player: {fileID: 0}
 --- !u!54 &3894827352925695449
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -134,7 +133,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2527666436949078375}
   serializedVersion: 4
-  m_Mass: 10
+  m_Mass: 50
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
